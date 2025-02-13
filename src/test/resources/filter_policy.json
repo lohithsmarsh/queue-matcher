@@ -1,0 +1,62 @@
+{
+  "_id": "35ae003f-75e5-4b3a-84d8-81d3e7028d8e",
+  "name": "TSIS Client Complaints",
+  "nameUnique": "tsis client complaints",
+  "supervisionPolicyCategory": {
+    "id": "suppolicytype/standard scenarios",
+    "name": "Standard Scenarios"
+  },
+  "supervisionPolicyType": "flag",
+  "isEchoEnabled": true,
+  "supervisionPolicyScenario": {
+    "id": "KI:dr.8b8a56d8234946d9ab6b8d73b4795308.12:TSIS Customer Complaints:1.0.0+1",
+    "name": "TSIS Customer Complaints",
+    "path": "scenario:dr.8b8a56d8234946d9ab6b8d73b4795308.12",
+    "version": "1.0.1"
+  },
+  "searchCriteriaFileName": "tsis_client_complaints_external_inbound.json",
+  "version": 5,
+  "searchCriteria": {
+    "FILTERS": {
+      "COMMUNICATION_TYPES": [
+        "external inbound"
+      ]
+    }
+  },
+  "updatedTime": {
+    "$date": "2024-11-20T20:13:39.601Z"
+  },
+  "updatedBy": {
+    "id": "pratik@ad.twosigma.com"
+  },
+  "isDeleted": false,
+  "isDisabled": false,
+  "createdTime": {
+    "$date": "2024-07-12T19:27:21.331Z"
+  },
+  "createdBy": {
+    "id": "pratik@ad.twosigma.com"
+  },
+  "queryHistory": {
+    "1": {
+      "FILTERS": {}
+    },
+    "2": {
+      "FILTERS": {}
+    },
+    "3": {
+      "FILTERS": {
+        "COMMUNICATION_TYPES": [
+          "external inbound"
+        ]
+      }
+    },
+    "4": {
+      "FILTERS": {
+        "COMMUNICATION_TYPES": [
+          "external inbound"
+        ]
+      }
+    }
+  }
+}

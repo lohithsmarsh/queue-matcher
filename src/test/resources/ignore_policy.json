@@ -1,0 +1,49 @@
+{
+  "_id": "9264e3a5-8f30-45c6-8043-22becb013889",
+  "name": "Ignore Domains",
+  "nameUnique": "ignore domains",
+  "supervisionPolicyCategory": {
+    "id": "suppolicytype/standard scenarios",
+    "name": "Standard Scenarios"
+  },
+  "supervisionPolicyType": "ignore",
+  "isEchoEnabled": false,
+  "searchCriteriaFileName": "Ignore_Domains.json",
+  "searchCriteria": {
+    "FILTERS": {
+      "PARTICIPANTS": {
+        "MUSTANY": {
+          "OR": [
+            {
+              "ROLE": "from",
+              "DOMAINS_LIST": [
+                "Sender Domains"
+              ]
+            },
+            {
+              "ROLE": "sender",
+              "DOMAINS_LIST": [
+                "Sender Domains"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "createdTime": {
+    "$date": "2024-07-01T19:13:41.847Z"
+  },
+  "updatedTime": {
+    "$date": "2024-07-01T19:13:41.847Z"
+  },
+  "createdBy": {
+    "id": "pratik@ad.twosigma.com"
+  },
+  "updatedBy": {
+    "id": "pratik@ad.twosigma.com"
+  },
+  "version": 1,
+  "isDeleted": false,
+  "isDisabled": false
+}
